@@ -37,6 +37,7 @@
 		834F028F17A82C2D007D1D8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		834F029117A82C2D007D1D8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		834F029217A82C2D007D1D8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		839798E717A831DE00E21ADA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		834F026A17A82C2C007D1D8B = {
 			isa = PBXGroup;
 			children = (
+				839798E717A831DE00E21ADA /* README.md */,
 				834F027C17A82C2C007D1D8B /* Web Request Demo */,
 				834F027517A82C2C007D1D8B /* Frameworks */,
 				834F027417A82C2C007D1D8B /* Products */,
@@ -298,6 +300,7 @@
 				834F029817A82C2D007D1D8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

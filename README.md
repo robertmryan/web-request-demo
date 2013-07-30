@@ -1,33 +1,7 @@
-//
-//  ViewController.m
-//  Web Request Demo
-//
-//  Created by Robert Ryan on 7/30/13.
-//  Copyright (c) 2013 Robert Ryan. All rights reserved.
-//
+##Web Request Demonstration
 
-#import "ViewController.h"
+This is a simple demonstration of submitting a web request from an iOS application, and parsing the resulting JSON.
 
-@interface ViewController ()
-
-@end
-
-@implementation ViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)didTouchUpInsideButton:(id)sender
-{
     NSURL *url = [NSURL URLWithString:@"http://sunnyside-demo.herokuapp.com/?location=32825&query=run"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSOperationQueue *queue = [[NSOperationQueue alloc] init];
@@ -57,5 +31,3 @@
                               otherButtonTitles:nil] show];
         });
     }];
-}
-@end

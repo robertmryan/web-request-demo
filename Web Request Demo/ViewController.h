@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)didTouchUpInsideButton:(id)sender;
+
 @end
